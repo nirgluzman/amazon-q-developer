@@ -1,0 +1,20 @@
+name: Demo Workflow
+
+on:
+  push:
+    branches: [ci-practice]
+  pull_request:
+    branches: [ci-practice]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+      - name: print java version
+        run: java --version
+      - name: print node version
+        run: node --version
+      - name: print python version
+        run: python --version
