@@ -1,5 +1,11 @@
 # MCP Server Usage Rules
 
+## General Guidelines
+- Always choose the MCP server that best aligns with the topic of the question.
+- If a question spans multiple topics, prioritize the primary focus of the inquiry.
+- Regularly review and update these rules to ensure they reflect the latest MCP server capabilities and content
+- When in doubt, refer to the official documentation or resources associated with each MCP server for clarification.
+
 ## AWS Documentation MCP Server
 Use `aws-documentation-mcp-server` when:
 - Questions about AWS services, features, or APIs
@@ -16,3 +22,11 @@ Use `context7` when:
 - Open-source package usage and examples
 - General programming concepts and patterns
 - Non-AWS technical documentation
+
+## Terraform MCP Server
+Use `awslabsterraform-mcp-server` when:
+- Questions specifically about Terraform syntax and usage
+- Infrastructure as Code (IaC) concepts related to Terraform
+- Terraform provider configurations and resources
+- Terraform modules and best practices
+- Terraform state management and workflows
