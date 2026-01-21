@@ -1,0 +1,12 @@
+@url = https://2fktzgx4fk.execute-api.eu-central-1.amazonaws.com/dev
+
+###
+GET {{url}}/messages
+
+###
+POST {{url}}/messages
+Content-Type: application/json
+
+{
+  "message": "Hello, World!!!!"
+}
